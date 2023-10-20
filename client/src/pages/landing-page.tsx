@@ -7,8 +7,7 @@ const LandingPage = () => {
     <main className="lg:px-20 md:px-10 px-6 py-8 flex flex-col items-start  gap-10">
       <Profile />
       <Separator />
-      <ArticlesSection />
-      
+      <ArticlesSection />      
     </main>
   );
 };

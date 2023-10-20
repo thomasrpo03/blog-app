@@ -1,6 +1,7 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import { ThemeProvider } from "./components/theme-provider";
+import ArticlePage from "./pages/article-page";
 import LandingPage from "./pages/landing-page";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -11,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          {/* Falta añadir la ruta para la página del articulo por ID */}
+          <Route path="/article/:articleId" element={<ArticlePage />} />
           {/* Falta añadir la ruta para la página de error */}
         </Routes>
         <Footer/>

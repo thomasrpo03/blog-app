@@ -13,6 +13,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "./ui/tooltip";
+import { Separator } from "./ui/separator";
 
 const ArticlesSection = () => {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -44,7 +45,10 @@ const ArticlesSection = () => {
   return (
     <section className="relative flex flex-col w-full">
       <div className="flex w-full">
+        <div className="flex w-full flex-col gap-4">
         <Header label="Latest Articles" />
+        <Separator />
+        </div>
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>

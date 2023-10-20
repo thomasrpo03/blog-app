@@ -28,7 +28,7 @@ export const profileContent = [
   {
     title: "Who am I?",
     content:
-      "I'm Thomas. I began my journey in IT, providing tech support, and have since evolved into a full-stack web developer. Technology and problem-solving have always been my passions, which led me to pursue a career as a software engineer. I'm currently in my 7th semester of study. My specialties lie in React (Next.js), Node, and Java (Spring Boot).",
+      "I'm Thomas. I began my journey in IT, providing Tech Support, and have since evolved into a full-stack web developer. Technology and problem-solving have always been my passions, which led me to pursue a career as a Software Engineer. I'm currently in my 7th semester of study. My specialties lie in React (Next.js), Node, and Java (Spring Boot).",
   },
   {
     title: "Why a Blog?",
