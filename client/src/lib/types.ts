@@ -3,6 +3,7 @@ export type Article = {
   title: string;
   summary: string;
   publishedAt: string;
+  author: string;
   imageUrl: string;
   category: string;
 };

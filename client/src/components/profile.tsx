@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import HeroImg from "../../public/images/herothomas.webp";
+import HeroImg from "../assets/herothomas.webp";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { profileContent } from "../lib/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
