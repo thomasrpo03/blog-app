@@ -15,7 +15,7 @@ model Article {
   title       String
   content     String   @db.Text
   summary     String   @db.Text
-  publishedAt DateTime
+  publishedAt DateTime @db.Date
   author      String
   imageUrl    String?
   category    String

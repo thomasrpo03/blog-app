@@ -4,9 +4,7 @@ import { Article } from "../lib/types";
 import ArticleCard from "./article-card";
 import LoadingSpinner from "./loading-spinner";
 import Header from "./header";
-import { Button } from "./ui/button";
-import { Link } from "react-router-dom";
-import { AiOutlinePlus } from "react-icons/ai";
+
 import {
   Tooltip,
   TooltipContent,
@@ -14,6 +12,7 @@ import {
   TooltipTrigger,
 } from "./ui/tooltip";
 import { Separator } from "./ui/separator";
+import AddArticleModal from "./add-article-modal";
 
 const ArticlesSection = () => {
   const [articles, setArticles] = useState<Article[]>([]);
@@ -52,14 +51,7 @@ const ArticlesSection = () => {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger asChild>
-              <Button
-                variant={"outline"}
-                className="absolute right-0 font-bold"
-              >
-                <Link to="/new-article" className="flex items-center justify-center gap-2">
-                  <span className="hidden md:block">New Article</span> <AiOutlinePlus />
-                </Link>
-              </Button>
+             <AddArticleModal />
             </TooltipTrigger>
             <TooltipContent>
               <p className="font-semibold">Create a new article</p>
