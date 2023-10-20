@@ -2,7 +2,7 @@
 
 This is a web blog built with React that utilizes a variety of dependencies to enable various functionalities in both the frontend and backend. Below, we detail the main dependencies used in this project:
 
-### Frontend
+### Client
 
 - React: I used it to build the user interface.
 - React Router Dom: I used it for navigation and route management within the application.
@@ -14,7 +14,7 @@ This is a web blog built with React that utilizes a variety of dependencies to e
 - Date-fns: I used it for date handling in the application.
 - Zod: I used it for data validation and schemas.
 
-### Backend
+### Server
 
 - Express: I used it as the web application framework for the server.
 - Prisma: I used it to interact with the database and manage data models.
