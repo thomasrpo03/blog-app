@@ -18,7 +18,7 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
           {article.title}
         </CardTitle>
         <CardDescription className="flex flex-col w-full">
-          <p className="h-16 overflow-hidden">{article.summary}</p>
+          <p className="h-16 overflow-hidden text-muted-foreground">{article.summary}</p>
           <p className="pt-2 text-card-foreground font-semibold">
             {formatDate(article.publishedAt)}
           </p>
